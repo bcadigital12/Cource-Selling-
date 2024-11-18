@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Name of the HTML Document-->
+    <title>Skills Sikho.in</title>
+
+    <!--Style Sheet Linking-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fontawsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Loading Effect -->
+     <div class="loader" id="loader_animation">
+        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+        </svg>
+     </div>
+   
+
+    <!--Navigation-->
+    <nav>
+        <a href="#"><img src="images/logo.svg" alt=""></a>
+
+        <div class="navigation" id="nav-links">
+            <ul class="menu-list">
+                <i id="menu-close" class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="cources.html">Cources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" onclick="openMenu()" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home Section-->
+    <section>
+        <div class="home">
+            <h2> Enhance Your Future With Technical Education </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ex dolores aut aliquid impedit minus
+                numquam dicta voluptatum possimus suscipit optio explicabo iusto exercitationem, culpa dolore modi rem
+                eveniet delectus?</p>
+            <div class="btn">
+                <a class="blue" href="blue"> Learn More </a>
+                <a class="yellow" href="yellow"> Visit Cources </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Features Section-->
+    <section>
+        <div class="features">
+            <h2> Awsome Features </h2>
+            <p>Some steps for your better future and curriculam </p>
+
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3> Scholarshi[p Facility </h3>
+                    <p>One make creepath, man bearing theira firmament won't great heaven </p>
+                </div>
+                <div class="fea-box">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3> Scholarshi[p Facility </h3>
+                    <p>One make creepath, man bearing theira firmament won't great heaven </p>
+                </div>
+                <div class="fea-box">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3> Scholarshi[p Facility </h3>
+                    <p>One make creepath, man bearing theira firmament won't great heaven </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cources Section-->
+    <section>
+        <div class="cources">
+            <h2> Awsome Features </h2>
+            <p>Some steps for your better future and curriculam </p>
+
+            <div class="cource-box">
+                <div class="cource">
+                    <img src="images/c1.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+                <div class="cource">
+                    <img src="images/c2.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+                <div class="cource">
+                    <img src="images/c3.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+                <div class="cource">
+                    <img src="images/c4.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+                <div class="cource">
+                    <img src="images/c6.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+                <div class="cource">
+                    <img src="images/c5.jpg" alt="">
+
+                    <div class="details">
+                        <span> Updated 21/8/24</span>
+                        <h6> JavaScript beginners cource </h6>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                            <span> (230) </span>
+                        </div>
+                    </div>
+
+                    <div class="cost">
+                        $44.99
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Registration Section-->
+    <section>
+        <div class="registration">
+            <div class="reminder">
+                <p> Get 100 online cources for free </p>
+                <h1> Register To Get It</h1>
+                <div class="time">
+                    <div class="date">
+                        <h1 id="days">00</h1>
+                        <span>Days</span>
+                    </div>
+                    <div class="date">
+                        <h1 id="hours">00</h1>
+                        <span>Hours</span>
+                    </div>
+                    <div class="date">
+                        <h1 id="minutes">00</h1>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="date">
+                        <h1 id="seconds">00</h1>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                <h3> Create Free Account Now </h3>
+
+                <input type="hidden" name="access_key" value="68ec8cdc-0549-4f79-9c4d-b4d5eb7caad0">
+
+                <input type="text" name="Name :" placeholder="Enter Name" name="" id="" required>
+                <input type="email" name="Email :" placeholder="Enter Email" name="" id="" required>
+                <input type="number" name="Contact :" placeholder="Enter Contact" name="" id="" required>
+
+                <div class="btn">
+                    <button type="submit" class="yellow" style="padding: 10px 20px; font-size: 15px; letter-spacing: 1px; background-color: rgb(84, 40, 241 ); border: none; border-radius: 5px; color: #fff;"> Submit </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Profiles Section -->
+    <section class="experts">
+        <h1> Community Experts </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam?</p>
+
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/pro1.webp" alt="">
+
+                <h6> Anandi Chanvhan </h6>
+                <p> Python and Algorithm Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro2.webp" alt="">
+
+                <h6> Ajit Dowal </h6>
+                <p> Python and Algorithm Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro3.webp" alt="">
+
+                <h6> Jayshankar IFS </h6>
+                <p> Python and Algorithm Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro4.webp" alt="">
+
+                <h6> Narendra Modi </h6>
+                <p> Python and Algorithm Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-col">
+            <h3> Top Products </h3>
+            <li> Manage Reputation </li>
+            <li> Power Tools </li>
+            <li> Managed Websites </li>
+            <li> Marketing Service </li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relation</li>
+            <li>Terms of Services</li>
+        </div>
+        <div class="footer-col">
+            <h3> Features </h3>
+            <li>Manage Reputation </li>
+            <li> Power Tools </li>
+            <li> Managed Websites </li>
+            <li> Marketing Services </li>
+        </div>
+        <div class="footer-col">
+            <h3> Resources </h3>
+            <li> Guides </li>
+            <li> Researche </li>
+            <li> Experts </li>
+            <li> Marketing Services </li>
+        </div>
+
+        <div class="footer-col">
+            <h3> Newsletter </h3>
+            <p> You can trust us, we only send promo offers. </p>
+
+            <div class="suscribe" onsubmit="sendEmail(); ">
+                <input type="email" placeholder="Your Email Address">
+                <a type="submit" href="#" class="yellow"> Subscribe </a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> Copyright @2024 All rights reserved | This template is made by Akhilesh Sharna </p>
+
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--link script file-->
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
+    <script src="script.js"> </script>
+
+
+</body>
+
+</html>
